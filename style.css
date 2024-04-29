@@ -1,0 +1,235 @@
+.body{
+  margin: 0px;
+}
+
+.wrapper{
+  width: 500px;
+  height: 1200px;
+  background-color: rgb(210, 210, 206);
+  margin: auto auto;
+  
+}
+
+.container1{
+  width: 375px;
+  height: 812px;
+  background-color: black;
+  border-radius: 39px;
+  margin: auto auto;
+  padding-top: 90px;
+}
+
+.screen{
+  height: 200px;
+  /* width: 308px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+  padding-bottom: 20px;
+
+  /* margin-top: 34px; */
+  margin-bottom: 80px;
+  margin-right: 34px;
+  margin-left: 34px; 
+  background-color: black;
+  border: 1px solid rgb(33, 32, 32)
+
+
+}
+
+.calculus{
+  height: 36px;
+  color: #818181;
+  font-size: 24px;
+  font-weight:calc();
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+
+.result{
+  height: 72px;
+  color: white;
+  font-size: 48px;
+  font-weight:calc();
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ____________________________________________________ */
+
+
+.row1, .row2, .row3, .row4_5, .row6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* ____________________________________________________ */
+
+.row1{
+  /* padding-top: 80px; */
+  margin-right: 34px;
+  margin-left: 34px; 
+  width: 308px;
+  height: 40px;
+}
+
+.buttons_row1{
+  width: 62px;
+  height: 40px;
+  border: none;
+  border-radius: 24px;
+  background-color: #303136;
+  color: rgb(56,185,255);
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.exp{
+  padding-top: 10px;
+}
+
+/* ____________________________________________________ */
+
+.row2{
+  /* padding-top: 80px; */
+  margin-right: 34px;
+  margin-left: 34px; 
+  width: 308px;
+  height: 62px;
+  margin-top: 16px;
+}
+
+.buttons_row21, .buttons_row22, .buttons_row221{
+  width: 62px;
+  height: 62px;
+  border: none;
+  border-radius: 16px;
+  background-color: #616161;
+  color: #a5a5a5;
+  font-size: 20px;
+}
+
+.buttons_row22, .buttons_row221{
+  background-color: #005db2;
+  /* color: #339dff; */
+  color: rgb(192, 186, 186);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.buttons_row221{
+  font-size: 38px;
+  padding-top: 15px;
+}
+
+/* ____________________________________________________ */
+
+.row3{
+  margin-right: 34px;
+  margin-left: 34px; 
+  width: 308px;
+  height: 62px;
+  margin-top: 16px;
+}
+
+.buttons_row31, .buttons_row32, .buttons_row4, .buttons_row5, .buttoncomma{
+  width: 62px;
+  height: 62px;
+  border: none;
+  border-radius: 16px;
+  background-color: #303136;
+  color: #29a8ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.buttons_row32{
+  background-color: #005db2;
+  /* color: #339dff; */
+  color: rgb(192, 186, 186);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ____________________________________________________ */
+
+.row4_5{
+display: flex;
+width: 308px;
+margin-left: 36px;
+}
+
+.nbrs{
+  display: flex;
+  flex-direction: column;
+  width: 226px;
+}
+
+.row4, .row5{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 15px;
+  width: 226px;
+  height: 62px;
+  margin-top: 16px;
+}
+
+.buttonplus{
+  width: 62px;
+  height:   96px;
+  border: none;
+  border-radius: 16px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #005db2;
+  /* color: #339dff; */
+  color: rgb(192, 186, 186);
+  margin-top: 16px;
+  margin-left: -10px;
+  /* padding-left: 22px; */
+  /* padding-top: 30px */
+}
+
+/* ____________________________________________________ */
+
+.row6{
+  margin-right: 34px;
+  margin-left: 34px; 
+  width: 308px;
+}
+
+.buttonzero{
+  width: 144px;
+  height: 62px;
+  border: none;
+  border-radius: 16px;
+  background-color: #303136;
+  color: #29a8ff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+.buttoncomma{
+  padding-bottom: 15px;
+  margin-top: 14px;
+}
+
+.buttonequal{
+  width: 62px;
+  height:   96px;
+  border: none;
+  border-radius: 16px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #1991ff ;
+  /* color: #339dff; */
+  color: #b2daff;
+  margin-top: -20px;
+  margin-left: 0px;
+}
+
